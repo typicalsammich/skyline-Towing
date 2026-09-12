@@ -1,10 +1,8 @@
-# Skyline Towing & Recovery Website
+# Skyline Towing & Recovery website
 
-Static multi-page website, ready for GitHub + Vercel/Netlify or any standard web host.
+Static multi-page website. Upload the contents of this folder to the web root or deploy directly to Vercel/Netlify/GitHub Pages.
 
-## Notes
-- Phone: (480) 522-5345
-- Core service areas used: Mesa, Tempe, Queen Creek, Maricopa
-- Photos and logo are in `images/`
-- SEO files included: `sitemap.xml`, `robots.txt`, page-specific titles/descriptions, LocalBusiness/TowingService JSON-LD.
-- Contact form currently opens through browser mail behavior only; connect it to Formspree, Netlify Forms, a CRM webhook, or your backend for live submissions.
+- `index.html` is the homepage.
+- `styles.css` and `main.js` are shared across all pages.
+- Images live in `/images`.
+- The contact form is a front-end demo until connected to email/CRM.
